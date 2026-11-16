@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Apex Fitness Studio | Transform Your Body</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600;700&family=Inter:wght@400;500;600&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif; }
+    body { background: #0b0b0d; color: #f4f4f5; line-height: 1.6; }
+    h1, h2, h3, .logo { font-family: 'Oswald', sans-serif; text-transform: uppercase; letter-spacing: 0.5px; }
+    header { display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; background: #111115; border-bottom: 1px solid #222; position: sticky; top: 0; z-index: 100; }
+    .logo { font-size: 1.8rem; color: #fff; text-decoration: none; }
+    .logo span { color: #ef4444; }
+    .btn { background: #ef4444; color: #fff; padding: 12px 26px; border-radius: 6px; text-decoration: none; font-weight: 600; display: inline-block; transition: 0.3s; border: none; cursor: pointer; }
+    .btn:hover { background: #dc2626; transform: translateY(-2px); }
+    .hero { text-align: center; padding: 100px 8%; background: radial-gradient(circle at center, rgba(239,68,68,0.2), #0b0b0d 70%); }
+    .hero h1 { font-size: 3.6rem; line-height: 1.1; margin-bottom: 18px; }
+    .hero h1 span { color: #ef4444; }
+    .hero p { color: #a1a1aa; max-width: 600px; margin: 0 auto 30px; font-size: 1.1rem; }
+    .container { padding: 70px 8%; max-width: 1200px; margin: 0 auto; }
+    .section-title { text-align: center; font-size: 2.4rem; margin-bottom: 40px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+    .card { background: #141418; border: 1px solid #27272a; padding: 30px; border-radius: 12px; transition: 0.3s; }
+    .card:hover { border-color: #ef4444; transform: translateY(-5px); }
+    .card h3 { font-size: 1.5rem; margin-bottom: 10px; color: #fff; }
+    .card p { color: #a1a1aa; font-size: 0.95rem; }
+    .price { font-size: 2.5rem; font-weight: 700; color: #ef4444; margin: 15px 0; font-family: 'Oswald', sans-serif; }
+    .price span { font-size: 0.9rem; color: #71717a; font-family: 'Inter', sans-serif; }
+    ul { list-style: none; margin-bottom: 25px; color: #d4d4d8; font-size: 0.92rem; }
+    ul li { padding: 6px 0; border-bottom: 1px solid #222; }
+    footer { text-align: center; padding: 30px; border-top: 1px solid #222; color: #71717a; font-size: 0.9rem; }
+    .demo-bar { background: #ef4444; color: #fff; text-align: center; padding: 8px; font-size: 0.85rem; font-weight: 600; }
+    .demo-bar a { color: #fff; text-decoration: underline; margin-left: 8px; }
+  </style>
+</head>
+<body>
+  <div class="demo-bar">Demo Project Built by PixelCraft Agency — <a href="index.html">Back to Agency</a></div>
+  <header>
+    <a href="#" class="logo">APEX <span>FITNESS</span></a>
+    <a href="#plans" class="btn">Join Now</a>
+  </header>
+
+  <section class="hero">
+    <h1>Push Past Your <span>Limits</span></h1>
+    <p>24/7 access, elite strength equipment, and certified personal trainers dedicated to building your strongest self.</p>
+    <a href="#plans" class="btn">Claim 7-Day Free Pass</a>
+  </section>
+
+  <div class="container">
+    <h2 class="section-title">Training Programs</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Strength & Hypertrophy</h3>
+        <p>Olympic lifting platforms, calibrated plates, and heavy dumbbells engineered for serious muscle growth.</p>
+      </div>
+      <div class="card">
+        <h3>HIIT & Conditioning</h3>
+        <p>High-intensity turf workouts designed to torch fat, boost stamina, and skyrocket athletic performance.</p>
+      </div>
+      <div class="card">
+        <h3>1-on-1 Coaching</h3>
+        <p>Customized workout splits and macro nutrition plans tailored specifically to your body goals.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container" id="plans">
+    <h2 class="section-title">Membership Plans</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Basic Access</h3>
+        <div class="price">$39 <span>/ month</span></div>
+        <ul>
+          <li>✓ Full Gym Floor Access</li>
+          <li>✓ Locker Room & Showers</li>
+          <li>✓ Free Fitness Assessment</li>
+        </ul>
+        <a href="contact.html" class="btn" style="width:100%; text-align:center;">Get Started</a>
+      </div>
+      <div class="card" style="border-color: #ef4444;">
+        <h3>Pro Athlete</h3>
+        <div class="price">$69 <span>/ month</span></div>
+        <ul>
+          <li>✓ 24/7 Unlimited Gym Access</li>
+          <li>✓ Unlimited Group HIIT Classes</li>
+          <li>✓ Sauna & Recovery Lounge</li>
+        </ul>
+        <a href="contact.html" class="btn" style="width:100%; text-align:center;">Most Popular</a>
+      </div>
+      <div class="card">
+        <h3>VIP Transformation</h3>
+        <div class="price">$129 <span>/ month</span></div>
+        <ul>
+          <li>✓ Everything in Pro Athlete</li>
+          <li>✓ 4 Personal Training Sessions</li>
+          <li>✓ Custom Meal & Macro Plan</li>
+        </ul>
+        <a href="contact.html" class="btn" style="width:100%; text-align:center;">Join VIP</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>&copy; 2026 Apex Fitness Studio. Demo Website by PixelCraft Agency.</footer>
+</body>
+</html>
